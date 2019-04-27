@@ -1,0 +1,24 @@
+{
+    "name": "@jamen/lorem",
+    "version": "0.2.0",
+    "description": "Create N bytes of lorem ipsum text.",
+    "author": "Jamen Marz <jamenmarz@gmail.com>",
+    "main": "src/lorem.js",
+    "bin": "src/lorem-cli.js",
+    "scripts": {
+        "test": "node test/test",
+        "bench": "node test/bench"
+    },
+    "keywords": [
+        "lorem",
+        "ipsum",
+        "cli"
+    ],
+    "dependencies": {
+        "bytes": "^3.0.0"
+    },
+    "devDependencies": {
+        "@jamen/bench": "^0.3.0",
+        "tape-modern": "^1.0.0"
+    }
+}
